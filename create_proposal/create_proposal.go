@@ -44,7 +44,7 @@ type proposal struct{
 	
 }
 // ============================================================================================================================
-// Main - start the chaincode for Proposal Form management
+// Main - start the chaincode for Proposal Form management 
 // ============================================================================================================================
 func main() {			
 	err := shim.Start(new(ManageProposal))
